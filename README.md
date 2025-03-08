@@ -374,6 +374,7 @@ cat > file21
 sort file21
 ## OUTPUT
 
+![Screenshot 2025-03-08 204848](https://github.com/user-attachments/assets/86c93677-55ad-4aa3-be4a-2d918e6da73e)
 
 cat > file22
 ```
@@ -434,10 +435,12 @@ mv backup.tar backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+![Screenshot 2025-03-08 205826](https://github.com/user-attachments/assets/70be2da6-53b2-41a6-b50a-136635d8d798)
 
 
 tar -xvf backup.tar
 ## OUTPUT
+![Screenshot 2025-03-08 205837](https://github.com/user-attachments/assets/05d59a8c-5783-4ff3-a7e8-43f8eeba66bf)
 
 gzip backup.tar
 
