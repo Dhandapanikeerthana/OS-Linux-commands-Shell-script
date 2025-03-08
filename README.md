@@ -386,6 +386,8 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
+![Screenshot 2025-03-08 185507](https://github.com/user-attachments/assets/221deb37-44fa-40fe-a5fd-d5fa76aac2dd)
+
 
 
 
@@ -393,6 +395,7 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+![Screenshot 2025-03-08 185530](https://github.com/user-attachments/assets/70590940-8aad-47e1-bbe8-05edaa21dcdb)
 
 cat < urllist.txt
 ```
@@ -409,17 +412,20 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+![Screenshot 2025-03-08 185840](https://github.com/user-attachments/assets/40125582-8a9c-475d-b4f9-b38eadcbf58d)
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
+![Screenshot 2025-03-08 185930](https://github.com/user-attachments/assets/591e368c-939c-4f90-b3a5-1ee2189de9aa)
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+![Screenshot 2025-03-08 185953](https://github.com/user-attachments/assets/616eeb8d-c05a-4020-a75b-6e35090cfa20)
 
 
 mkdir backupdir
