@@ -458,7 +458,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 ```
 chmod 755 my-script.sh
 ./my-script.sh
-## OUTPUT
+## OUTPUTchmod
 
  
 cat << stop > herecheck.txt
@@ -472,6 +472,7 @@ stop
 cat herecheck.txt
 ## OUTPUT
 
+![Screenshot 2025-03-09 105913](https://github.com/user-attachments/assets/5f79644b-26e0-4f1d-be42-8ad48706ad35)
 
 cat < scriptest.sh 
 ```bash
@@ -510,22 +511,28 @@ chmod 777 scriptest.sh
 
 ## OUTPUT
 
- 
+ ![Screenshot 2025-03-09 111657](https://github.com/user-attachments/assets/4f7dab67-928f-4685-8903-b880def8d0bd)
+
 ls file1
 ## OUTPUT
+![Screenshot 2025-03-09 111900](https://github.com/user-attachments/assets/ee01f193-1f8b-4ac2-b33b-6ad5743fd2d8)
 
 echo $?
 ## OUTPUT 
+![Screenshot 2025-03-09 111937](https://github.com/user-attachments/assets/c87192c2-5a93-4290-8e0b-192871016e2b)
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
-## OUTPUT 
- 
+## OUTPUT echo
+ ![Screenshot 2025-03-09 112143](https://github.com/user-attachments/assets/f1da64aa-e4d3-41ef-a772-b0e71eebbe31)
+
 abcd
  
 echo $?
  ## OUTPUT
+![Screenshot 2025-03-09 112646](https://github.com/user-attachments/assets/f96fe94b-ff42-490c-bbb1-fee192530e6e)
 
 
  
@@ -559,6 +566,7 @@ fi
 ```
 ##OUTPUT
 
+![Screenshot 2025-03-09 113155](https://github.com/user-attachments/assets/8aae649f-90b4-497c-90d7-293cf3a411c4)
 
 
 chmod 755 strcomp.sh
