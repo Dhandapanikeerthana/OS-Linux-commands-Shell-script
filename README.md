@@ -1180,8 +1180,7 @@ else
 fi
 ```
 ## OUTPUT 
-![Screenshot 2025-03-09 150359](https://github.com/user-attachments/assets/ca7b91c6-9ecd-4ace-b4d2-7e205e77e685)
-
+![Screenshot 2025-03-10 095024](https://github.com/user-attachments/assets/e74a621e-3f0d-4f9b-88c3-4c32dca0f6a4)
 
 # RESULT:
 The Commands are executed successfully.
