@@ -655,7 +655,8 @@ fi
 ./ifnested.sh 
 ## OUTPUT
 
-![Screenshot 2025-03-09 124958](https://github.com/user-attachments/assets/5607829b-e660-454b-877e-4d2ae824d73c)
+![Screenshot 2025-03-10 121248](https://github.com/user-attachments/assets/01ce8bd4-5980-4c79-8c79-8a657c8e920d)
+
 
 
 # using numeric test comparisons
@@ -749,7 +750,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
-![Screenshot 2025-03-09 130101](https://github.com/user-attachments/assets/30c0903b-aaf6-49ba-a16d-dd6c6d2366c5)
+
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -816,9 +817,13 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
+
+
  ![Screenshot 2025-03-10 123513](https://github.com/user-attachments/assets/438a8331-8277-45af-baaf-f95ae069bf9b)
 
 cat > whiletest
+![Screenshot 2025-03-10 213952](https://github.com/user-attachments/assets/2a04bf39-4b81-4a41-be56-8a29356151c7)
+
 
 ```bash
 #!/bin/bash
