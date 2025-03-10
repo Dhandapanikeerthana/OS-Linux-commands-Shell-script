@@ -462,7 +462,7 @@ chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUTchmod
 
- ![Screenshot 2025-03-09 123812](https://github.com/user-attachments/assets/4581e673-3f4d-43c1-92c7-0c7d4e85536f)
+
 
 cat << stop > herecheck.txt
 ```
@@ -475,7 +475,7 @@ stop
 cat herecheck.txt
 ## OUTPUT
 
-![Screenshot 2025-03-09 105913](https://github.com/user-attachments/assets/5f79644b-26e0-4f1d-be42-8ad48706ad35)
+![Screenshot 2025-03-10 104849](https://github.com/user-attachments/assets/2aa9c76c-128f-44be-a19d-dc3ec540f01f)
 
 cat < scriptest.sh 
 ```bash
@@ -514,7 +514,8 @@ chmod 777 scriptest.sh
 
 ## OUTPUT
 
- ![Screenshot 2025-03-09 111657](https://github.com/user-attachments/assets/4f7dab67-928f-4685-8903-b880def8d0bd)
+![Screenshot 2025-03-10 105134](https://github.com/user-attachments/assets/573092a8-44d1-4203-bb13-2aa5680004ce)
+
 
 ls file1
 ## OUTPUT
@@ -529,13 +530,15 @@ bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT echo
- ![Screenshot 2025-03-09 112143](https://github.com/user-attachments/assets/f1da64aa-e4d3-41ef-a772-b0e71eebbe31)
+![Screenshot 2025-03-10 105304](https://github.com/user-attachments/assets/0d0993f5-805f-4a12-8d49-67cd7329e561)
+
 
 abcd
  
 echo $?
  ## OUTPUT
-![Screenshot 2025-03-09 112646](https://github.com/user-attachments/assets/f96fe94b-ff42-490c-bbb1-fee192530e6e)
+![Screenshot 2025-03-10 105350](https://github.com/user-attachments/assets/865be10a-6140-4ef2-8cf0-5797f21d6565)
+
 
 
  
@@ -574,7 +577,8 @@ chmod 755 strcomp.sh
 ./strcomp.sh 
 ## OUTPUT
 
-![Screenshot 2025-03-09 113155](https://github.com/user-attachments/assets/8aae649f-90b4-497c-90d7-293cf3a411c4)
+![Screenshot 2025-03-10 110230](https://github.com/user-attachments/assets/6d17ee4f-2d18-4f23-8eb8-613cd609359a)
+
 
 # check file ownership
 cat < psswdperm.sh 
@@ -601,7 +605,8 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
-![Screenshot 2025-03-09 124605](https://github.com/user-attachments/assets/0f1c218e-50cc-4fb1-9a2e-f70e150bfcc0)
+![Screenshot 2025-03-10 110301](https://github.com/user-attachments/assets/a5549694-067a-4ff5-b6ee-71e332fcd386)
+
 
 # check if with file location
 cat>ifnested.sh 
