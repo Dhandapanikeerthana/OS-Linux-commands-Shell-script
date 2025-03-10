@@ -462,6 +462,7 @@ chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUTchmod
 
+![Screenshot 2025-03-10 104717](https://github.com/user-attachments/assets/e77008a6-9920-4dc4-a6d2-0b16eb6523ee)
 
 
 cat << stop > herecheck.txt
@@ -698,7 +699,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
-![Screenshot 2025-03-09 125644](https://github.com/user-attachments/assets/83c2bd9e-fc69-40cd-b2e8-4ec1abb60f7c)
+![Screenshot 2025-03-10 121525](https://github.com/user-attachments/assets/00a002cb-4110-4a66-8fd2-bc2b225cead3)
 
 # check if a file
 cat > ifnested.sh 
@@ -777,8 +778,8 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
-![Screenshot 2025-03-09 130625](https://github.com/user-attachments/assets/6aabfdc4-d474-45d9-8991-97c44739712e)
 
+![Screenshot 2025-03-10 123015](https://github.com/user-attachments/assets/eb7bdfeb-3df3-479d-bf66-7f9aef457adb)
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -794,7 +795,8 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
-![Screenshot 2025-03-09 131407](https://github.com/user-attachments/assets/b4888549-edc3-4e8d-880a-3709a3e0e59e)
+![Screenshot 2025-03-10 123229](https://github.com/user-attachments/assets/d7678d5a-4280-4332-90e8-b6990d72664c)
+
 
 # using the case command
 cat >casecheck.sh 
@@ -814,8 +816,10 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- 
+ ![Screenshot 2025-03-10 123513](https://github.com/user-attachments/assets/438a8331-8277-45af-baaf-f95ae069bf9b)
+
 cat > whiletest
+
 ```bash
 #!/bin/bash
 #while command test
