@@ -446,11 +446,11 @@ gzip backup.tar
 
 ls .gz
 ## OUTPUT
- ![Screenshot 2025-03-09 122921](https://github.com/user-attachments/assets/7a6b2d06-b626-4065-9628-a0989d1078e4)
+![Screenshot 2025-03-10 101012](https://github.com/user-attachments/assets/b8c925a2-f555-4913-97e5-c298bdaf323f)
 
 gunzip backup.tar.gz
 ## OUTPUT
-![Screenshot 2025-03-09 123344](https://github.com/user-attachments/assets/6b042a84-131c-4222-a272-3064a2d3e990)
+![Screenshot 2025-03-10 101114](https://github.com/user-attachments/assets/8680c16c-f6ce-4ddc-83d7-69ecf7dd3c81)
 
  
 # Shell Script
