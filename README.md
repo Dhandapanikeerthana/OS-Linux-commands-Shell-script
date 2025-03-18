@@ -780,7 +780,7 @@ $ chmod 755 elifcheck.sh
 $ ./elifcheck.sh 
 ## OUTPUT
 
-![Screenshot 2025-03-10 123015](https://github.com/user-attachments/assets/eb7bdfeb-3df3-479d-bf66-7f9aef457adb)
+![Screenshot 2025-03-13 093859](https://github.com/user-attachments/assets/8ac760b8-1302-432d-8d73-bd5c0427cada)
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -796,7 +796,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
-![Screenshot 2025-03-10 123229](https://github.com/user-attachments/assets/d7678d5a-4280-4332-90e8-b6990d72664c)
+![Screenshot 2025-03-13 094159](https://github.com/user-attachments/assets/579d065b-7c0a-4f63-8a0a-3bf1fb20992c)
 
 
 # using the case command
@@ -819,10 +819,10 @@ $ chmod 755 casecheck.sh
 $ ./casecheck.sh 
 
 
- ![Screenshot 2025-03-10 123513](https://github.com/user-attachments/assets/438a8331-8277-45af-baaf-f95ae069bf9b)
+![Screenshot 2025-03-13 094510](https://github.com/user-attachments/assets/5e89208d-ccfa-44e9-9f40-63b46453bf9d)
 
 cat > whiletest
-![Screenshot 2025-03-10 213952](https://github.com/user-attachments/assets/2a04bf39-4b81-4a41-be56-8a29356151c7)
+![Screenshot 2025-03-13 095310](https://github.com/user-attachments/assets/1b7585a3-cdf6-4378-adeb-1612e2341976)
 
 
 ```bash
@@ -838,7 +838,8 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
+ ![Screenshot 2025-03-13 095505](https://github.com/user-attachments/assets/c9d58922-181a-4462-a62e-5463c7eb2451)
+
  
 cat untiltest.sh 
 ```bash
@@ -852,9 +853,13 @@ done
 ``` 
 $ chmod 755 untiltest.sh
  
- 
+ ![Screenshot 2025-03-13 095735](https://github.com/user-attachments/assets/b2cf3c3a-3599-4a76-9d28-508b5a2cb824)
+
  
 cat forin1.sh 
+![Screenshot 2025-03-13 095955](https://github.com/user-attachments/assets/47096e29-5a9b-470a-849e-642b25e1ecc3)
+
+
 ```bash
 \#!/bin/bash
 \#basic for command
@@ -868,6 +873,9 @@ $ chmod 755 forin1.sh
  
  
 cat forin2.sh 
+![Screenshot 2025-03-13 100428](https://github.com/user-attachments/assets/8e38f8ce-0ee6-4e1b-a88d-f2ba618ec729)
+
+
 ```bash
 \#!/bin/bash
 \# another example of how not to use the for command
@@ -891,7 +899,8 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
- 
+ ![Screenshot 2025-03-13 100428](https://github.com/user-attachments/assets/998a0147-7c33-4164-addb-c9d1ce3c4dc4)
+
 cat forin3.sh 
 ```bash
 \#!/bin/bash
@@ -902,6 +911,7 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
+![Screenshot 2025-03-13 100428](https://github.com/user-attachments/assets/f65d2989-de0b-42dd-adfe-20ac594bfc04)
  
 cat forin1.sh 
 ```bash
@@ -954,7 +964,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
-![Screenshot 2025-03-09 135319](https://github.com/user-attachments/assets/351710e2-59a4-4827-a080-0c5b7936eee1)
+![Screenshot 2025-03-13 101238](https://github.com/user-attachments/assets/db507746-35e7-45eb-bfa8-85dc9f9e86f6)
 
 cat forctype1.sh 
 ```bash
@@ -987,7 +997,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
-![Screenshot 2025-03-09 140127](https://github.com/user-attachments/assets/fe257804-c075-4179-ba30-23564e5571e9)
+![Screenshot 2025-03-13 101745](https://github.com/user-attachments/assets/c2003ed7-90bf-48b4-a1cb-6eb2e71c072c)
 
  
 cat forbreak.sh 
@@ -1005,7 +1015,8 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
-![Screenshot 2025-03-09 143140](https://github.com/user-attachments/assets/9674ebb2-d405-40bd-983c-4078e99c76a1)
+![Screenshot 2025-03-13 102028](https://github.com/user-attachments/assets/463cddb3-cf49-43fb-9412-4949a6ef8a9d)
+
 
 $ chmod 755 forbreak.sh
  
@@ -1031,7 +1042,7 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- ![Screenshot 2025-03-09 143254](https://github.com/user-attachments/assets/32277e5b-170d-44d0-86a9-69d5e21c489d)
+![Screenshot 2025-03-13 102303](https://github.com/user-attachments/assets/838c94bf-bebc-44c7-821d-31f1e07cd6d8)
 
 cat exread.sh 
 ```bash
@@ -1046,7 +1057,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
-![Screenshot 2025-03-09 143441](https://github.com/user-attachments/assets/ab0c3f08-05f2-4ad4-924a-9d65c0b15a1b)
+![Screenshot 2025-03-13 102515](https://github.com/user-attachments/assets/c73036a9-0e4a-4c91-8b4b-f2db8b5c2eed)
 
 
  cat exread1.sh
@@ -1059,8 +1070,7 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ## OUTPUT
-
-![Screenshot 2025-03-09 143958](https://github.com/user-attachments/assets/5933a38c-e7fe-4b0b-b582-66175f2cee79)
+![Screenshot 2025-03-13 102840](https://github.com/user-attachments/assets/5ba65b8b-5bee-4b6b-ae96-ca7ccbd624a0)
 
 
 $ ./exread1.sh 
@@ -1082,7 +1092,8 @@ fi
 ```
 ## OUTPUT
 
-![Screenshot 2025-03-09 144437](https://github.com/user-attachments/assets/e0d79ffd-0b8e-4466-a38b-94ff0f1ac263)
+![Screenshot 2025-03-13 103339](https://github.com/user-attachments/assets/f73079d0-afb4-42f7-90c8-0e277c115e9e)
+
  ./funcex.sh 
  
  ./funcex.sh 1 2
@@ -1099,7 +1110,8 @@ done
 $ chmod 777 argshift.sh
 
 ## OUTPUT
-![Screenshot 2025-03-09 144751](https://github.com/user-attachments/assets/e31ce0d6-da38-4599-bfb1-356c694ddbb2)
+![Screenshot 2025-03-13 103533](https://github.com/user-attachments/assets/4b84e122-efb9-412e-b1f1-b9e51b00fb9c)
+
 
 $ ./argshift.sh 1 2 3
  
@@ -1118,7 +1130,7 @@ done
 ```
 $ chmod 777 argshift.sh
 ## OUTPUT
-![Screenshot 2025-03-09 145135](https://github.com/user-attachments/assets/66afd19e-ecc8-4cd4-b1a7-1fd2feb82308)
+![Screenshot 2025-03-13 103731](https://github.com/user-attachments/assets/bb0dca4d-9e96-4d29-bc66-127080a61558)
 
 $ ./argshift.sh 1 2 3
  
@@ -1135,7 +1147,7 @@ set +x
 ## OUTPUT
  ./argshift.sh 1 2 3
  
- ![Screenshot 2025-03-09 145358](https://github.com/user-attachments/assets/9460b43d-7122-4fe7-a2fe-ab909e3b6f88)
+ ![Screenshot 2025-03-13 103951](https://github.com/user-attachments/assets/bf66ea70-3d30-42ac-b27e-9da4a55fba49)
 
 cat > nc.awk
 ```bash
